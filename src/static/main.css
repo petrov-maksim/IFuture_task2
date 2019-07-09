@@ -1,0 +1,57 @@
+li{
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.file{
+    list-style-image: url(file.png);
+}
+.folder{
+    list-style-image: url(folder.png);;
+}
+
+.activeFolder{
+    list-style-image: url(selectedFolder.png);
+}
+
+.loadingFolder{
+    list-style-image: url(loadingFolder.png);
+}
+
+nav{
+    visibility: hidden;
+}
+
+span{
+  cursor: pointer;
+}
+
+.active{
+    visibility: visible;
+}
+
+#contextMenu{
+    position: absolute;
+}
+
+
+.category-list {
+  background: white;
+  list-style-type: circle;
+  list-style-position: inside;
+  padding: 0 10px;
+  margin: 0;
+}
+.category-list li {
+  font-family: "Trebuchet MS", "Lucida Sans";
+  border-bottom: 1px solid #efefef;
+  padding: 10px 0;
+}
+.category-list span {
+  text-decoration: none;
+  color: #555;
+}
+
+.category-list li:hover span {
+  color: #c93961;
+}
